@@ -1,0 +1,18 @@
+{
+  "circuit_size": 2048,
+  "num_public_inputs": 2,
+  "commitments": [
+    {
+      "x": "0x1183c5d7990146f49e47d174d81223297a70081d45928d3e83f0c3d9df87ab29",
+      "y": "0x2117565dd5fd86fa4ddc3ecfd26cfdbcc3e5e4860b0ff1ff9cdd632d431f4164"
+    },
+    {
+      "x": "0x2b89f666f2c0cf7d28b18a3818e38d38adfa8cf4f7ab3f14068595856b3e944d",
+      "y": "0x1f74cf5cfabfb0cf13d420f18c64188faee5929837c784e20790b4e0689b02ff"
+    },
+    {
+      "x": "0x2035987d60ff3eb2b0ec35aa32c7f5518b53dbd94f8eb543fbba4eb4f9401ab6",
+      "y": "0x2477efca19808d7455cc3b063d83b9c1d2e1c31278ca9c76d203672e0d37e559"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+/target
+generated_circom/
+generated_noir/
+**/*.rs.bk
+*.swp
+.DS_Store
