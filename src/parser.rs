@@ -42,6 +42,7 @@ impl G2Point {
 
 /// Standard Circom / SnarkJS Groth16 verification_key.json
 #[derive(Debug, Clone, Serialize, Deserialize)]
+#[allow(non_snake_case)]
 pub struct CircomVerificationKey {
     pub protocol: String,
     pub curve: String,

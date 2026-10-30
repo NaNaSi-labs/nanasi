@@ -25,7 +25,7 @@ pub fn generate_circom_contract(vk: &CircomVerificationKey) -> String {
             crate::parser::parse_hex_or_dec_32(&ic_pt[0]),
             crate::parser::parse_hex_or_dec_32(&ic_pt[1]),
         ]);
-        ic_rest_code.push_str(&format!("    // IC[{}]\n    points.push_back(G1Affine::from_bytes(BytesN::from_array(env, &{})));\n", idx + 1, b));
+        ic_rest_code.push_str(&format!("    // IC[{}]\n    points.push_back(G1Affine::from_bytes(BytesN::from_array(&env, &{})));\n", idx + 1, b));
     }
 
     format!(r#"// ==============================================================================
